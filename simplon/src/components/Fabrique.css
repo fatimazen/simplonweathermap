@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 0, 255);
+}
+.fabrique {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    border: 1px solid #c81212; /* Bordure de 1 pixel avec une couleur grise */
+    padding: 16px; /* Marge intérieure de 16 pixels autour du contenu */
+    margin: 16px; /* Marge extérieure de 16 pixels autour du composant */
+    background-color: #f9f9f9; /* Couleur d'arrière-plan gris clair */
+    width: 280px;
+    max-width: 1000px;
+    box-shadow: 0 0 15px rgba(0,0,0
+    ,0,3);
+}
+.fabrique h1 {
+    color: black;
+    font-size: 24px; /* Taille de police pour le titre */
+    margin-bottom: 8px; /* Marge inférieure pour espacer le titre du paragraphe */
+}
+.fabrique p {
+    font-size: 16px; /* Taille de police pour le paragraphe */
+    color: #c31515; /* Couleur de texte sombre */
+}
